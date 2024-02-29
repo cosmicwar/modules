@@ -1,0 +1,18 @@
+secret = "S3CR3T!"
+
+[networks]
+[networks.network1]
+hostnames = ["network1.com", "www.network1.com"]
+favicon = "network1.png"
+
+redis_host = "database"
+redis_port = 6379
+redis_password = "none"
+
+[networks.network2]
+hostnames = ["network2.com", "www.network2.com"]
+favicon = "network2.png"
+
+redis_host = "database2"
+redis_port = 6379
+redis_password = "none"

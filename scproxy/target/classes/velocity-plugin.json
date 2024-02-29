@@ -1,0 +1,1 @@
+{"id":"scproxy","name":"Starcade Proxy","version":"1.0","description":"Proxy plugin for starcade network","url":"https://starcade.org","authors":["starcade"],"dependencies":[],"main":"org.starcade.proxy.ProxyBootstrap"}
