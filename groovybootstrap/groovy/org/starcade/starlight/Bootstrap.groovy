@@ -20,14 +20,11 @@ class Bootstrap {
             if (args[0] == "discord") {
                 def folder = new File("../../workspace/discord")
                 if (folder.exists()) folders.add(folder)
-            } else if (args[0] == "factions") {
-                def folder = new File("../../workspace/${args[0]}")
-                if (folder.exists()) folders.add(folder)
             } else {
                 def folder = new File("../../workspace/${args[0]}")
                 if (folder.exists()) folders.add(folder)
 
-                folders.add(new File("../../shared/versions/universal"))
+                folders.add(new File("../../shared/versions/v1_20_R1"))
             }
 
             gse = new GroovyScriptEnvironment(folders.toArray() as File[]).initLogger(logger)
