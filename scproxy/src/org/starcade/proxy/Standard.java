@@ -9,14 +9,14 @@ import java.net.InetSocketAddress;
 
 public class Standard {
 
-    public static final String KEY_PREFIX_BUNGEE = "arcim.bungee.";
-    public static final String KEY_PREFIX_SERVER = "arcim.server.";
+    public static final String KEY_PREFIX_BUNGEE = "starcade.bungee.";
+    public static final String KEY_PREFIX_SERVER = "starcade.server.";
 
-    public static final String CONFIG_MOTD = "arcim.config.motd";
+    public static final String CONFIG_MOTD = "starcade.config.motd";
 
     public static final String HUB_TYPE = "hub";
-    public static final String PCH_SEND = "arcim|send";
-    public static final String CMD_REBOOT = "arcim|reboot";
+    public static final String PCH_SEND = "starcade|send";
+    public static final String CMD_REBOOT = "starcade|reboot";
 
 
     @Getter@Setter
