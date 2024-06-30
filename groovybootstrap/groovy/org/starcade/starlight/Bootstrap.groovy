@@ -30,6 +30,7 @@ class Bootstrap {
             gse = new GroovyScriptEnvironment(folders.toArray() as File[]).initLogger(logger)
 
             logger.info("Starting initial script...")
+            logger.info("IMPORTANT - exec path: ${execPath}")
             println("IMPORTANT - exec path: ${execPath}")
             gse.watch(execPath)
         }
